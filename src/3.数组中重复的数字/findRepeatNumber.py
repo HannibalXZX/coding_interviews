@@ -3,7 +3,7 @@
 #@Author:    Shaw
 #@mail  :    shaw@bupt.edu.cn
 #@File  :    findRepeatNumber.py
-#@Description：
+#@Description：https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/
 
 
 class Solution:
@@ -19,10 +19,7 @@ class Solution:
                 if num == nums[num]:
                     return num
                 else:
-                    tmp = nums[index]
-                    nums[index] = nums[num]
-                    nums[num] = tmp
-
+                    nums[index], nums[num] = nums[num], nums[index]
 
     # hash
     def findRepeatNumberI(self, nums):
@@ -60,6 +57,6 @@ class Solution:
 
 if __name__ == '__main__':
     s = Solution()
-    list1 = [2, 3, 1, 0, 2, 5, 3]
+    # list1 = [2, 3, 1, 0, 2, 5, 3]
     # list1 = [1, 0, 1]
     print(s.findRepeatNumber(list1))
