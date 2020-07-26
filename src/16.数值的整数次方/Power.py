@@ -29,7 +29,7 @@ class Solution:
 
     def myPow(self, x: float, n: int) -> float:
         ## 设立初始条件
-        if abs(x-0)<1e-7 and n <0:
+        if abs(x-0)<1e-7 and n < 0:
             return 0
         abs_n = abs(n)
 
