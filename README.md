@@ -87,3 +87,7 @@ https://www.nowcoder.com/ta/coding-interviews
 | 66.构建乘积数组                   | `Array`                      |      |
 | 67.把字符串转成整数               | `Bit Manipulation`           | 关注 |
 | 68.树中两个节点的最低公共祖先     |                              | 常考 |
+
+## 感悟
+
+妙蛙种子吃着妙脆角妙进了米奇妙妙屋，妙到家了。
