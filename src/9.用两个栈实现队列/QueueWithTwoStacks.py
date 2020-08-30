@@ -2,7 +2,7 @@
 #@Time  :    2020/7/1 8:01 下午
 #@Author:    Shaw
 #@mail  :    shaw@bupt.edu.cn
-#@File  :    yong-liang-ge-zhan-shi-xian-dui-lie-lcof.py
+#@File  :    QueueWithTwoStacks.py
 #@Description：https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/
 
 
